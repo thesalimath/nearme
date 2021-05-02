@@ -1,0 +1,42 @@
+.body {
+  background-color: #edece6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.map-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("background-map.jpg");
+  background-repeat: no-repeat;
+}
+
+.location-unselected {
+  position: absolute;
+  background-image: url("marker.png");
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 37px;
+}
+
+.location-selected {
+  position: absolute;
+  background-image: url("marker-selected.png");
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 37px;
+}
+
+.location-details {
+  width: 200px;
+  height: 240px;
+  position: absolute;
+  left: 600px;
+  top: 60px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: left;
+}
+.content-text {
+  padding: 15px;
+}
